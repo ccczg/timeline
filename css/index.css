@@ -1,0 +1,183 @@
+@charset "utf-8";
+	html,body {
+	width:1100px;
+	height:100%;
+	padding:0;
+	margin:0 auto;
+}
+
+.about-history {
+	height:701px;
+	padding:50px 106px 0;
+	background-color: #EDF8FB;
+	-webkit-background-size:100% 100%;
+	background-size:100% 100%;
+}
+.about-title {
+	text-align: center;
+	margin-bottom: 25px;
+}
+.about-title h3 {
+	margin: 0 0 10px;
+	font-size:21px;
+	font-weight:400;
+	color: #F58936;
+	visibility: visible;
+}
+
+.about-history-list {
+	position:relative;
+}
+.about-history-list .flex-viewport {
+	overflow: hidden; 
+	position: relative;
+	padding:0 31px;
+}
+.about-history-list .flex-viewport:before {
+	position:absolute;
+	top:50%;
+	right:0;
+	left:0;
+	border-top:1px dashed #C7C7C7;
+	content:'';
+}
+.about-history-list .slides li {
+	position:relative;
+	width:253px;
+	height:300px;
+	margin-right:31px;
+}
+.about-history-list .flex-direction-nav {
+	padding:0;
+	margin:0;
+	list-style:none;
+}
+.about-history-list .flex-direction-nav a {
+	position:absolute;
+	top:50%;
+	width:48px;
+	height:160px;
+	line-height:160px;
+	overflow:hidden;
+	margin-top:-85px;
+	font-size:50px;
+	font-family:simsun;
+	color:#F58936;
+	text-align:center;
+}
+.about-history-list .flex-direction-nav a.flex-prev {
+	left:-48px;
+}
+.about-history-list .flex-direction-nav a.flex-next {
+	right:-48px;
+}
+
+a {
+	color:#414141;
+	text-decoration:none;
+	-webkit-transition:all .2s ease;
+	-moz-transition:all .2s ease;
+	-ms-transition:all .2s ease;
+	-o-transition:all .2s ease;
+	transition:all .2s ease;
+}
+a:hover {
+	text-decoration:none;
+}
+.clearfix:after {
+	clear:both;
+	display:block;
+	visibility:hidden;
+	height:0;
+	content:".";
+	font-size:0;
+}
+* html .clearfix {
+	zoom:1;
+}
+*:first-child+html .clearfix {
+	zoom:1;
+}
+.list {
+	padding:0;
+	margin:0;
+	list-style:none;
+	width: 2600%; 
+	transition-duration: 0s;
+	transform: translate3d(-852px, 0px, 0px);
+}
+.batchDetail{
+	margin-top: 90px;
+	line-height: 10px;
+	text-align: center;
+}
+.batchDetail .title{
+	font-size: 18px;
+	font-weight: bold;
+}
+.batchDetail .detail {
+	font-size: 16px;
+}
+.solars {
+	width: 160px;
+	height: 304px;
+	float: left; 
+	display: block;
+}
+.yearContainer{
+	width: 120px;
+	height: 120px;
+	border-radius: 50%;
+	background-color: white;
+	position: absolute;
+	left: 18px;
+	top: 23px;
+	z-index: 100;
+	box-shadow: 2px 2px 2px #e4e1e1;
+}
+.yearContainer .yearSmallContainer {
+	width: 100px;
+	height: 100px;
+	border-radius: 50%;
+	background-color: white;
+	border: 1px solid gray;
+	position: absolute;
+	left: 9px;
+	top: 8px;
+	z-index: 150;
+}
+.yearSmallContainer p{
+	margin-top: 38px;
+	margin-left: 26px;
+	font-size: 20px;
+}
+.full{
+	position: relative;
+	left: -10px;
+	height:10px;
+	width:500px;
+	background-color: #EDF8FB;
+}
+.indexNumber {
+	border:1px solid #EDF8FB;
+	width:50px;
+	height: 50px; 
+	background-color:rgb(83, 207, 83) ; 
+	border-radius:50%;
+	margin: 0 auto;
+	margin-top: -30px;
+	text-align: center;
+	color: white;
+	font-weight: bold;
+}
+.scolarsContainer{
+	border: 2px solid rgb(83, 207, 83);
+	height: 274px; 
+	border-radius: 999em;
+	background-color: #EDF8FB;
+}
+.semicircle{
+	height: 76px; 
+	background-color:rgb(83, 207, 83);
+	border-radius:76px 76px 0 0;
+}
